@@ -1,0 +1,101 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    color: black;
+     background-color:blanchedalmond;
+     text-align: center;
+     font-size: 60px;
+}
+h2{
+    background-color:blanchedalmond;
+    color: crimson;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    color: rgb(12, 12, 78);
+    margin-left: 50px;
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+button{
+    font-family: sans-serif;
+    background-color:darkseagreen;
+    padding-right:  10px;
+    font-size: 16px;
+    margin: 10px;
+}    
+button:hover{
+    background-color: deeppink;
+}
+#border{
+    border-radius: 5px;
+    border-color:darkolivegreen red;
+    border-width: 5px;
+    border-style: ridge;
+}
+.products{
+    color: darkorchid;
+    font-size: 40px;
+    border-style: dotted;
+   
+}
+
+.ola{
+    text-decoration: underline;
+    color:blue;
+    
+}
+.number,.time{
+    color:blue;
+}
+.phone,.hours,.email,.map{
+    color: firebrick;
+    font-family: sans-serif;
+}
+footer p{
+    color:red;
+    
+}
+footer>p{
+    background-color:snow;
+    text-align:center;
+
+}
+h2 + p{
+    color: navy;
+}
+li::first-letter{
+    font-size: 20px;
+}
+tr:nth-last-child(2){
+    background-color: thistle;
+}
+td:nth-last-child(1){
+    background-color: violet;
+}
+td:nth-last-child(2){
+    background-color:tomato
+}
+td:nth-last-child(3){
+    background-color: violet;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+  }
+  @media screen and (max-width: 300px) {
+    body {
+      background-color: rgb(47, 112, 47);
+    }
+  }
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: rgb(143, 160, 50);
+    }
+  }
